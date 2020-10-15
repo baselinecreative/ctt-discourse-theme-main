@@ -1,8 +1,8 @@
 .ember-application {
   #ember4 {
-    background-image: url($ctt-space-shuttle-alt);
-    background-attachment: fixed;
-    background-position: right top;
-    background-repeat: no-repeat;
+    background-image: url($ctt-space-shuttle), url($ctt-bull);
+    background-attachment: fixed, fixed;
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
   }
 }
