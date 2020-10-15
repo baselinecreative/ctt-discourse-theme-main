@@ -4,6 +4,14 @@ section {
     display: none;
   }
 }
+// Remove Cakeday from hamburger menu
+.widget-link.cakeday-link {
+    display: none !important;
+}
+// Remove birthday from user profile
+.user-custom-preferences-outlet.user-date-of-birth-input {
+    display: none;
+}
 .below-site-header-ctt {
   display: flex;
   justify-content: center;
