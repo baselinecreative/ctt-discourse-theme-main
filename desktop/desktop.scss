@@ -1,8 +1,13 @@
 .ember-application {
   #ember4 {
-    background-image: url($ctt-space-shuttle);
+    background-image: url($ctt-graphs);
     background-attachment: fixed;
-    background-position: right top;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-color: #000;
   }
+}
+
+#main-outlet {
+  background: rgba(207,173,52, 0.80);
 }
