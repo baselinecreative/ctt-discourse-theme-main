@@ -4,7 +4,8 @@
   "license_url": "https://github.com/DHarper-Code/ctt-discourse-theme",
   "component": true,
   "assets": {
-    "asset-variable": "assets/Champion-Team-Trading-Logo-dark.png"
+    "logo-dark": "assets/Champion-Team-Trading-Logo-dark.png",
+    "leif-honeycomb": "assets/leif-honeycomb.png"
   },
   "color_schemes": {
      "color scheme name": {
