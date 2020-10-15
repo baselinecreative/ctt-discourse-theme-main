@@ -2,5 +2,22 @@
   "name": "Champion Team Trading",
   "about_url": "https://github.com/DHarper-Code/ctt-discourse-theme",
   "license_url": "https://github.com/DHarper-Code/ctt-discourse-theme",
-  "component": true
+  "component": true,
+  "assets": {
+    "asset-variable": "assets/Champion-Team-Trading-Logo-dark.png"
+  },
+  "color_schemes": {
+     "color scheme name": {
+        "primary": "000000",
+        "secondary": "000000",
+        "tertiary": "000000",
+        "quaternary": "000000",
+        "header_background": "000000",
+        "header_primary": "000000",
+        "highlight": "000000",
+        "danger": "000000",
+        "success": "000000",
+        "love": "000000"
+      }
+  }
 }
