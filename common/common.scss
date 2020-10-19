@@ -15,8 +15,9 @@ section {
 
 /** Categories **/
 .category-list {
-  // display: flex;
-  // flex-wrap: wrap;
+  .category {
+    border: none !important;
+  }
   .category-text-title {
     margin-left: 75px;
   }
@@ -24,6 +25,7 @@ section {
     float: left;
     max-width: 64px;
     max-height: unset;
+    margin: 0;
   }
   .category-description {
     margin-left: 75px;
