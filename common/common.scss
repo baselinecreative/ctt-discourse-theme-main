@@ -35,6 +35,13 @@ section {
         margin-left: 64px;
       }
     }
+    tr[data-category-id="15"] {
+      .category {
+        &:before {
+          content: "\f017";
+        }
+      }
+    }
   }
 }
 .below-site-header-ctt {
