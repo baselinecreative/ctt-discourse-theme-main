@@ -17,6 +17,14 @@ section {
 .category-list {
   display: flex;
   flex-wrap: wrap;
+  .category-text-title {
+    maring-left: 75px;
+  }
+  .category-logo.aspect-image {
+    float: left;
+    max-width: 64px;
+    max-height: unset;
+  }
   tbody {
     .category {
       display: flex;
