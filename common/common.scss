@@ -26,7 +26,7 @@ section {
         position: absolute;
         width: 64px;
         font-family: "Font Awesome 5 Free";
-        content: "\f007";
+        font-size: 48px;
       }
       h3 {
         margin-left: 64px;
@@ -42,6 +42,85 @@ section {
         }
       }
     }
+    tr[data-category-id="5"] {
+      .category {
+        &:before {
+          content: "\f1e5";
+        }
+      }
+    }
+    tr[data-category-id="10"] {
+      .category {
+        &:before {
+          content: "\f024";
+        }
+      }
+    }
+    tr[data-category-id="6"] {
+      .category {
+        &:before {
+          content: "\f135";
+        }
+      }
+    }
+    tr[data-category-id="16"] {
+      .category {
+        &:before {
+          content: "\f07c";
+        }
+      }
+    }
+    tr[data-category-id="8"] {
+      .category {
+        &:before {
+          content: "\f201";
+        }
+      }
+    }
+    tr[data-category-id="9"] {
+      .category {
+        &:before {
+          content: "\f0c0";
+        }
+      }
+    }
+    tr[data-category-id="2"] {
+      .category {
+        &:before {
+          content: "\f02d";
+        }
+      }
+    }
+    tr[data-category-id="11"] {
+      .category {
+        &:before {
+          content: "\f086";
+        }
+      }
+    }
+    tr[data-category-id="14"] {
+      .category {
+        &:before {
+          content: "\f091";
+        }
+      }
+    }
+    tr[data-category-id="3"] {
+      .category {
+        &:before {
+          content: "\f03d";
+        }
+      }
+    }
+    tr[data-category-id="17"] {
+      .category {
+        &:before {
+          content: "\f05a";
+        }
+      }
+    }
+
+
   }
 }
 .below-site-header-ctt {
