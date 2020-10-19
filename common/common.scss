@@ -12,6 +12,27 @@ section {
 .user-custom-preferences-outlet.user-date-of-birth-input {
     display: none;
 }
+
+/** Categories **/
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  tbody {
+    .category {
+      &:before {
+        position: absolute;
+        width: 64px;
+        content: "ABC";
+      }
+      h3 {
+        margin-left: 64px;
+      }
+      div.category-description {
+        margin-left: 64px;
+      }
+    }
+  }
+}
 .below-site-header-ctt {
   display: flex;
   justify-content: center;
