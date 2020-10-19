@@ -27,6 +27,7 @@ section {
         width: 64px;
         font-family: "Font Awesome 5 Free";
         font-size: 48px;
+        color:rgb(207, 173, 52);
       }
       h3 {
         margin-left: 64px;
@@ -115,7 +116,10 @@ section {
     tr[data-category-id="17"] {
       .category {
         &:before {
-          content: "\f05a";
+          background-image: url($icon-info-circle);
+          background-repeat: no-repeat;
+          background-size: cover;
+          content: "";
         }
       }
     }

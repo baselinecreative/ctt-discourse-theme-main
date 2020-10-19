@@ -9,7 +9,8 @@
     "ctt-space-shuttle": "assets/ctt-space-shuttle-mod-web.jpg",
     "ctt-bull": "assets/ctt-bull.jpg",
     "ctt-space-shuttle-alt": "assets/sts101-s-007-web.jpg",
-    "ctt-graphs": "assets/ctt_hero.jpg"
+    "ctt-graphs": "assets/ctt_hero.jpg",
+    "icon-info-circle": "assets/info-circle-solid.png"
   },
   "color_schemes": {
      "color scheme name": {
