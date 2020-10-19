@@ -19,10 +19,14 @@ section {
   flex-wrap: wrap;
   tbody {
     .category {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
       &:before {
         position: absolute;
         width: 64px;
-        content: "ABC";
+        font-family: "Font Awesome 5 Free";
+        content: "\f007";
       }
       h3 {
         margin-left: 64px;
