@@ -30,117 +30,6 @@ section {
   .category-description {
     margin-left: 75px;
   }
-  /*
-  tbody {
-    .category {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      &:before {
-        position: absolute;
-        width: 64px;
-        font-family: "Font Awesome 5 Free";
-        font-size: 48px;
-        color:rgb(207, 173, 52);
-      }
-      h3 {
-        margin-left: 64px;
-      }
-      div.category-description {
-        margin-left: 64px;
-      }
-    }
-    tr[data-category-id="15"] {
-      .category {
-        &:before {
-          content: "\f017";
-        }
-      }
-    }
-    tr[data-category-id="5"] {
-      .category {
-        &:before {
-          content: "\f1e5";
-        }
-      }
-    }
-    tr[data-category-id="10"] {
-      .category {
-        &:before {
-          content: "\f024";
-        }
-      }
-    }
-    tr[data-category-id="6"] {
-      .category {
-        &:before {
-          content: "\f135";
-        }
-      }
-    }
-    tr[data-category-id="16"] {
-      .category {
-        &:before {
-          content: "\f07c";
-        }
-      }
-    }
-    tr[data-category-id="8"] {
-      .category {
-        &:before {
-          content: "\f201";
-        }
-      }
-    }
-    tr[data-category-id="9"] {
-      .category {
-        &:before {
-          content: "\f0c0";
-        }
-      }
-    }
-    tr[data-category-id="2"] {
-      .category {
-        &:before {
-          content: "\f02d";
-        }
-      }
-    }
-    tr[data-category-id="11"] {
-      .category {
-        &:before {
-          content: "\f086";
-        }
-      }
-    }
-    tr[data-category-id="14"] {
-      .category {
-        &:before {
-          content: "\f091";
-        }
-      }
-    }
-    tr[data-category-id="3"] {
-      .category {
-        &:before {
-          content: "\f03d";
-        }
-      }
-    }
-    tr[data-category-id="17"] {
-      .category {
-        &:before {
-          background-image: url($icon-info-circle);
-          background-repeat: no-repeat;
-          background-size: cover;
-          content: "";
-        }
-      }
-    }
-
-
-  }
-  */
 }
 .below-site-header-ctt {
   display: flex;
@@ -149,6 +38,10 @@ section {
   div {
     display: flex;
     justify-content: center;
+    img {
+      width: 100%;
+      padding: 25px;
+    }
   }
 }
 
