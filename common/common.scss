@@ -13,10 +13,27 @@ section {
     display: none;
 }
 
+/* hide about link */
+.widget-link.about-link { display: none !important; }
+
+/* Hide topic views column */
+.topic-map .map .secondary.views { display: none; }
+
+/* hide views from posts */
+.topic-list .views { display: none; }
+
+/** END - Hides **/
+
 /** Categories **/
 .category-list {
   .category {
     border: none !important;
+    .subcategories {
+      margin-left: 75px;
+      .badge-category-bg {
+        background-color: #000;
+      }
+    }
   }
   .category-text-title {
     margin-left: 75px;
