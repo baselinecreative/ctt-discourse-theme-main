@@ -56,10 +56,11 @@ section {
     display: flex;
     justify-content: center;
     img {
-      max-width: 275px;
-      width: 100%;
-      height: auto;
-      padding: 25px;
+      // max-width: 275px;
+      width: 100px;
+      height: 100%;
+      // padding: 25px;
+      margin: 15px 0;
     }
   }
 }
